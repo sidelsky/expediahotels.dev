@@ -1,0 +1,15 @@
+{
+	"wpVer": "4.8",
+	"url": "http://expediahotels.dev",
+	"tablePrefix": "wp_",
+	"dbHost": "localhost",
+	"dbName": "expediahotels.dev",
+	"dbUser": "root",
+	"dbPass": "root",
+	"git": false,
+	"customDirs": false,
+	"installTheme": false,
+	"wpDir": ".",
+	"contentDir": "wp-content",
+	"saltKeys": "define('AUTH_KEY',         '6BhNq!SAL%#$Ze;wMi}08?>CwC#6^7fS$yY<5~H9{+8K{hzOCS6hL%)FW*P]D91p');\ndefine('SECURE_AUTH_KEY',  'NLWTOPp::RiF9M5_4VdS]X@rvzN+fBB,j+w%&EW9>88@ckn|3FKUX3kEufk[24)J');\ndefine('LOGGED_IN_KEY',    'BE+ggAC6As08_9,kdBb`Oe_)j*nwt]e,S7;^KRU}r,F~1MV-u6z[QX7D{J5w|h.S');\ndefine('NONCE_KEY',        'yIcA@=/WY9p3)F-SF1#]].WU=,soT_/1Tx-gGF+,tq~z3->ik/^Bh[]48Y7Y*p!d');\ndefine('AUTH_SALT',        'RJs5bqdPz)a,>qWAo^&!akr^C|h+7j)NcOdJ$95a+,Jb`dtrRg{Y/9<)M!4jAeso');\ndefine('SECURE_AUTH_SALT', '-T!v;|?@:+n+Gtj(+LZO?$%TmexB!+>.G/0IhiM+8.ryP(As-C&@^lYVE!+?G>I1');\ndefine('LOGGED_IN_SALT',   'x+9%UWr%pStlF-QZE`[oBl7</_js~hG{y(]|;iR=?~>18T:y70;,nd-<^H(,{|A,');\ndefine('NONCE_SALT',       'BuYyU}x-Rmn{|Z0lFBD&&ds0-Ey9f /p4kaN<(Eo8fU>63r2#x6[t&dn2J |g(3?');\n"
+}
