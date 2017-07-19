@@ -19,3 +19,13 @@ function valenti_child_textdomain() {
     load_child_theme_textdomain( 'cubell', get_stylesheet_directory() . '/languages' );
 }
 add_action( 'after_setup_theme', 'valenti_child_textdomain' );
+
+/**
+ * Allow the use of SVG
+ *
+ */
+function cc_mime_types($mimes) {
+    $mimes['svg'] = 'image/svg+xml';
+    return $mimes;
+}
+add_filter('upload_mimes', 'cc_mime_types');
