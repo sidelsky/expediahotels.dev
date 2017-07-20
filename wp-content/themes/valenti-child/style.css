@@ -3,8 +3,7 @@ Theme Name: Valenti Child
 Theme URI: https://themeforest.net/item/valenti-wordpress-hd-review-magazine-news-theme/5888961
 Description: Theme child of Valenti
 Version: 1.0
-Author: Codetipi
-Author URI: http://www.codetipi.com
+Author: Errol Sidelsky
 Template: valenti
 Text Domain: cubell
 */
@@ -12,3 +11,60 @@ Text Domain: cubell
 
 /* =Theme customization starts here. Any CSS code entered here will overwrite the parent theme's CSS.
 -------------------------------------------------------------- */
+
+/**
+* Navigation bar
+*/
+
+/* Change color of the navigation */
+.cb-layout-fw #cb-nav-bar.cb-dark-menu {
+
+    background-color: rgba(0, 53, 95, 0.9);
+
+}
+
+/**
+* Title underlines
+*/
+
+.cb-module-header,
+#cb-footer #cb-widgets .cb-footer-widget-title span {
+
+    border-bottom-color: #ffcb00!important;
+
+}
+
+/**
+* Footer changes
+*/
+
+/* Color change */
+#cb-footer {
+
+    /* background-color: #bcbcbc; */
+    border-top: 0;
+
+}
+
+#cb-footer #cb-widgets {
+
+    /* background-color: #bcbcbc; */
+    overflow: hidden;
+
+}
+
+/* Text widget font size */
+.textwidget {
+
+    font-size: 14px;
+    color: #bcbcbc;
+
+}
+
+/* Remove border from footer items */
+#cb-footer .cb-fw,
+#cb-footer .cb-footer-a .cb-column {
+
+    border: 0;
+
+}

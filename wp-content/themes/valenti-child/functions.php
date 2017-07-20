@@ -1,4 +1,13 @@
 <?php
+
+/**
+ * Update HOME & SITE URLs
+ *
+ */
+
+// update_option('siteurl','http://hoteledit.dev');
+// update_option('home','http://hoteledit.dev');
+
 /**
  * Child stylesheet
  *
